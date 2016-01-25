@@ -63,6 +63,7 @@ SnailPlanService::~SnailPlanService()
 void SnailPlanService::OnStart(DWORD dwArgc, LPWSTR *lpszArgv)
 {
 	// Log a service start message to the Application log.
+	//test
 	WriteEventLogEntry(L"CppWindowsService in OnStart",
 		EVENTLOG_INFORMATION_TYPE);
 
